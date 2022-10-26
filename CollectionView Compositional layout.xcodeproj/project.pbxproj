@@ -13,6 +13,7 @@
 		60470D302909750600616BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60470D2E2909750600616BAC /* Main.storyboard */; };
 		60470D322909750800616BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60470D312909750800616BAC /* Assets.xcassets */; };
 		60470D352909750800616BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60470D332909750800616BAC /* LaunchScreen.storyboard */; };
+		60470D3D290975BE00616BAC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60470D3C290975BE00616BAC /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		60470D312909750800616BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60470D342909750800616BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60470D362909750800616BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60470D3C290975BE00616BAC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				60470D312909750800616BAC /* Assets.xcassets */,
 				60470D332909750800616BAC /* LaunchScreen.storyboard */,
 				60470D362909750800616BAC /* Info.plist */,
+				60470D3C290975BE00616BAC /* MyCollectionViewCell.swift */,
 			);
 			path = "CollectionView Compositional layout";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				60470D2D2909750600616BAC /* ViewController.swift in Sources */,
 				60470D292909750600616BAC /* AppDelegate.swift in Sources */,
+				60470D3D290975BE00616BAC /* MyCollectionViewCell.swift in Sources */,
 				60470D2B2909750600616BAC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
